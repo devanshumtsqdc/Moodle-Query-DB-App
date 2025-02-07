@@ -611,7 +611,6 @@ st.title("Moodle Database Application")
 
 # Sidebar navigation
 app_mode = st.sidebar.selectbox("Choose the app mode:", ["Chatbot", "Dashboard"])
-api_key = "AIzaSyAMwAx8QZoj6ST54DJPGKDDI0AFHpmWVig"
 ollama_api_url = "http://35.224.72.66:11434"
 groq_key = os.getenv("GROQ_API_KEY")
 # ollama = OllamaLLM(model="gemma2:27b", base_url=ollama_api_url,temperature=1.5)
